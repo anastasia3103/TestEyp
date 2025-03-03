@@ -64,7 +64,7 @@ namespace TestEyp.Pages
             MessageBox.Show("Студент добавлен");
 
             FullnameTb.Text = "";
-            GroupCmb = null;
+            GroupCmb.Text="";
         }
 
     }
