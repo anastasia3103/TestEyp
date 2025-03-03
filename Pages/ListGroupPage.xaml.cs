@@ -58,11 +58,11 @@ namespace TestEyp.Pages
         private void GroupCmb_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
-            int SelectedGroup = Convert.ToInt32(GroupCmb.SelectedValue);
-            StudentCmb.ItemsSource = App.context.Journal.Where(x => x.Student.IdGroup == SelectedGroup).ToList();
-            GroupDg.ItemsSource = App.context.Journal.Where(x => x.Student.IdGroup == SelectedGroup).ToList();
+            int SelectedGroupCmb = Convert.ToInt32(GroupCmb.SelectedValue);
+            StudentCmb.ItemsSource = App.context.Student.Where(x => x.IdGroup == SelectedGroupCmb).ToList();
 
-            //int SelectedGroupCmb = Convert.ToInt32(GroupCmb.SelectedValue);
+            int SelectedGroup = Convert.ToInt32(GroupCmb.SelectedValue);
+            GroupDg.ItemsSource = App.context.Journal.Where(x => x.Student.IdGroup == SelectedGroup).ToList();
 
         }
 
