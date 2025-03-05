@@ -107,6 +107,26 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Test1Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Test2Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Test3Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Test4Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\VyborPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Group.cs">
@@ -159,6 +179,21 @@
     </Compile>
     <Compile Include="Pages\TeacherPage.xaml.cs">
       <DependentUpon>TeacherPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Test1Page.xaml.cs">
+      <DependentUpon>Test1Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Test2Page.xaml.cs">
+      <DependentUpon>Test2Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Test3Page.xaml.cs">
+      <DependentUpon>Test3Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Test4Page.xaml.cs">
+      <DependentUpon>Test4Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\VyborPage.xaml.cs">
+      <DependentUpon>VyborPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

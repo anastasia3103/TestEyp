@@ -12,34 +12,37 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using TestEyp.AppDate;
 
 namespace TestEyp.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для BodyPage.xaml
+    /// Логика взаимодействия для Test1Page.xaml
     /// </summary>
-    public partial class BodyPage : Page
+    public partial class Test1Page : Page
     {
-        public BodyPage()
+        public Test1Page()
         {
             InitializeComponent();
         }
 
-        private void StudentBtn_Click(object sender, RoutedEventArgs e)
+        private void CheckBtn_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void StudentBtn_Click_1(object sender, RoutedEventArgs e)
+        private void CheckBtn_Click_1(object sender, RoutedEventArgs e)
         {
 
-            FrameHelper.BodyFrame.Navigate(new Pages.VyborPage());
         }
 
-        private void TeacherBtn_Click(object sender, RoutedEventArgs e)
+        private void p2_Click(object sender, RoutedEventArgs e)
         {
-            FrameHelper.BodyFrame.Navigate(new Pages.TeacherPage());
+
+        }
+
+        private void p3_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
