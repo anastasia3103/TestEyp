@@ -10,20 +10,20 @@
 
     <Grid>
         <StackPanel x:Name="ViborSp" Margin="250,0,250,0">
-            <TextBlock Text="Выберите группу"  FontSize="30"/>
-            <ComboBox Name="GroupCmb" FontWeight="Black" FontSize="30" 
+            <TextBlock Text="Выберите группу"  FontSize="25"/>
+            <ComboBox Name="GroupCmb" FontWeight="Black" FontSize="20" 
                       SelectionChanged="GroupCmb_SelectionChanged"/>
             
-            <TextBlock Text="Выберите студента"  FontSize="30"/>
-            <ComboBox Name="StudentCmb" FontWeight="Black" FontSize="30"
+            <TextBlock Text="Выберите студента"  FontSize="25"/>
+            <ComboBox Name="StudentCmb" FontWeight="Black" FontSize="20"
                       SelectionChanged="StudentCmb_SelectionChanged"/>
             
-            <TextBlock Text="Выберите тест"  FontSize="30"/>
-            <ComboBox Name="TestCmb" FontWeight="Black" FontSize="30"
+            <TextBlock Text="Выберите тест"  FontSize="25"/>
+            <ComboBox Name="TestCmb" FontWeight="Black" FontSize="20"
                      SelectionChanged="TestCmb_SelectionChanged" />
 
             <Button Content="Начать" Name="StartBtn" FontSize="30"
-                    FontWeight="Black" Margin="10, 50, 10, 10"
+                    FontWeight="Black" Margin="5, 50, 1, 10"
                     Click="StartBtn_Click"/>
         </StackPanel>
     </Grid>

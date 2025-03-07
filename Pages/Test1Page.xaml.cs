@@ -20,6 +20,8 @@ namespace TestEyp.Pages
     /// </summary>
     public partial class Test1Page : Page
     {
+        int b = 0;
+        int c = 0;
         public Test1Page()
         {
             InitializeComponent();
@@ -32,17 +34,59 @@ namespace TestEyp.Pages
 
         private void CheckBtn_Click_1(object sender, RoutedEventArgs e)
         {
+            if(AnswerTb.Text == "5")
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else
+            {
+                MessageBox.Show("Неправильно");
+                CheckBtn.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v2;
+
+            }
         }
 
         private void p2_Click(object sender, RoutedEventArgs e)
         {
+            if (RB2.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else
+            {
+                MessageBox.Show("Неправильно");
+                p2.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v3;
+
+            }
         }
 
         private void p3_Click(object sender, RoutedEventArgs e)
         {
 
+            if (ChB1.IsChecked == false && ChB2.IsChecked == false
+                && ChB3.IsChecked == false &&
+                ChB4.IsChecked == false && ChB5.IsChecked == true )
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
+
+
+            }
+            else
+            {
+                MessageBox.Show("Неправильно");
+                p2.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v4;
+
+            }
         }
     }
 }
