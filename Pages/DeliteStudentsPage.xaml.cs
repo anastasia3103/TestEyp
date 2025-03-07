@@ -43,7 +43,7 @@ namespace TestEyp.Pages
         {
             if (GroupDg.SelectedItem == null)
             {
-                MessageBox.Show("Выберите товар для удаления");
+                MessageBox.Show("Выберите студента для удаления");
                 return;
             }
 

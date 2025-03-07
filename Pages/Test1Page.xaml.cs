@@ -84,7 +84,7 @@ namespace TestEyp.Pages
             {
                 MessageBox.Show("Неправильно");
                 p2.Visibility = Visibility.Collapsed;
-                ProductsTc.SelectedItem = v4;
+                //ProductsTc.SelectedItem = v4;
 
             }
         }
