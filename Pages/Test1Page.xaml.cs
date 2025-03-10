@@ -88,5 +88,90 @@ namespace TestEyp.Pages
 
             }
         }
+
+        private void p4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p10_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p11_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p12_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p13_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p14_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p15_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p16_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p17_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p18_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p19_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p20_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p21_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
