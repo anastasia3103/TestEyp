@@ -30,25 +30,22 @@ namespace TestEyp.Pages
         private void CheckBtn_Click(object sender, RoutedEventArgs e)
         {
 
-        }
-
-        private void CheckBtn_Click_1(object sender, RoutedEventArgs e)
-        {
-            if(AnswerTb.Text == "5")
+            if (AnswerTb.Text == "5")
             {
                 MessageBox.Show("Правильно!!");
                 b = b + 1;
 
 
             }
-            else
-            {
-                MessageBox.Show("Неправильно");
-                CheckBtn.Visibility = Visibility.Collapsed;
+            else MessageBox.Show("Неправильно");
+
+            CheckBtn.Visibility = Visibility.Collapsed;
                 ProductsTc.SelectedItem = v2;
 
-            }
+            
         }
+
+    
 
         private void p2_Click(object sender, RoutedEventArgs e)
         {
@@ -59,13 +56,12 @@ namespace TestEyp.Pages
 
 
             }
-            else
-            {
-                MessageBox.Show("Неправильно");
+            else MessageBox.Show("Неправильно");
+
                 p2.Visibility = Visibility.Collapsed;
                 ProductsTc.SelectedItem = v3;
 
-            }
+            
         }
 
         private void p3_Click(object sender, RoutedEventArgs e)
@@ -80,96 +76,316 @@ namespace TestEyp.Pages
 
 
             }
-            else
-            {
-                MessageBox.Show("Неправильно");
-                p2.Visibility = Visibility.Collapsed;
-                //ProductsTc.SelectedItem = v4;
+            else MessageBox.Show("Неправильно");
+            
+                p3.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v4;
 
-            }
+            
         }
 
         private void p4_Click(object sender, RoutedEventArgs e)
         {
+            if (RB4.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+            
+                p4.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v5;
+
+            
         }
 
         private void p5_Click(object sender, RoutedEventArgs e)
         {
+            if (RB5.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p5.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v6;
+
+            
         }
 
         private void p7_Click(object sender, RoutedEventArgs e)
         {
+            if (RB7.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p7.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v8;
+
+            
         }
 
         private void p8_Click(object sender, RoutedEventArgs e)
         {
+            if (RB8.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p8.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v9;
+
+            
         }
 
         private void p9_Click(object sender, RoutedEventArgs e)
         {
+            if (RB9.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p9.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v10;
+
+            
         }
 
         private void p10_Click(object sender, RoutedEventArgs e)
         {
+            if (RB10.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p10.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v11;
+
+            
         }
 
         private void p11_Click(object sender, RoutedEventArgs e)
         {
+            if (RB11.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p11.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v12;
+
+            
         }
 
         private void p12_Click(object sender, RoutedEventArgs e)
         {
+            if (RB12.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p12.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v13;
+
+            
         }
 
         private void p13_Click(object sender, RoutedEventArgs e)
         {
+            if (RB13.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p13.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v14;
+
+            
         }
 
         private void p14_Click(object sender, RoutedEventArgs e)
         {
+            if (RB14.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p14.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v15;
+
+            
         }
 
         private void p15_Click(object sender, RoutedEventArgs e)
         {
+            if (ChB6.IsChecked == false && ChB7.IsChecked == true && 
+                ChB8.IsChecked == false && ChB9.IsChecked == true && 
+                ChB10.IsChecked == false
+                && ChB11.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p15.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v16;
+
+            
         }
 
         private void p16_Click(object sender, RoutedEventArgs e)
         {
+            if (RB16.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p16.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v17;
+
+            
         }
 
         private void p17_Click(object sender, RoutedEventArgs e)
         {
+            if (RB17.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p17.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v18;
+
+            
         }
 
         private void p18_Click(object sender, RoutedEventArgs e)
         {
+            if (RB18.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p18.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v19;
+
+            
         }
 
         private void p19_Click(object sender, RoutedEventArgs e)
         {
+            if (RB19.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+                p19.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v20;
+
+            
         }
 
         private void p20_Click(object sender, RoutedEventArgs e)
         {
+            if (RB20.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
 
+
+            }
+            else MessageBox.Show("Неправильно");
+
+                p20.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v21;
+
+            
         }
 
         private void p21_Click(object sender, RoutedEventArgs e)
+        {
+            if (RB21.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
+
+
+            }
+            else MessageBox.Show("Неправильно");
+            
+               
+                p21.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = Result;
+
+            
+        }
+
+        private void p6_Click(object sender, RoutedEventArgs e)
+        {
+            if (RB6.IsChecked == true)
+            {
+                MessageBox.Show("Правильно!!");
+                b = b + 1;
+
+
+            }
+            else MessageBox.Show("Неправильно");
+            
+                p6.Visibility = Visibility.Collapsed;
+                ProductsTc.SelectedItem = v7;
+
+            
+        }
+
+        private void ResultBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Ваш результат {b}");
+        }
+
+        private void OkBtn_Click(object sender, RoutedEventArgs e)
         {
 
         }

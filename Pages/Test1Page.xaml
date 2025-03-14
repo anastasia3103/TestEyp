@@ -188,7 +188,7 @@
 
                         <Separator Height="3" Width="0"/>
 
-                        <Button x:Name="p6" Content="Проверить" Width="100" Click="p4_Click"  HorizontalAlignment="Left"/>
+                        <Button x:Name="p6" Content="Проверить" Width="100" Click="p6_Click"  HorizontalAlignment="Left"/>
                     </StackPanel>
                 </TabItem.Content>
 
@@ -359,8 +359,6 @@
                                    Content="Индивидуальное предпринимательство" FontSize="15"/>
                         <RadioButton Margin="5" HorizontalAlignment="Left"
                                    Content="Акционерное общество" FontSize="15"/>
-                        <RadioButton  Margin="5" HorizontalAlignment="Left"
-                                   Content="" FontSize="15"/>
                         <RadioButton Margin="5" HorizontalAlignment="Left"
                                    Content="Унитарное предприятие" FontSize="15"/>
 
@@ -664,10 +662,8 @@
                             <RowDefinition Height="20" />
                             <RowDefinition Height="auto" />
                             <RowDefinition Height="20" />
+                            <RowDefinition Height="40" />
                             <RowDefinition Height="30" />
-                            <RowDefinition Height="10" />
-                            <RowDefinition Height="20" />
-                            <RowDefinition Height="1*" />
                         </Grid.RowDefinitions>
 
                         <TextBlock Text="Правильных ответов:" Grid.Row="1" FontSize="35" FontWeight="Bold"/>
@@ -675,6 +671,9 @@
                         
                         <TextBlock Name="ResultTb"  Grid.Row="1" Grid.Column="2" FontSize="20"/>
                         <TextBlock Name="MarkTb"  Grid.Row="3" Grid.Column="2" FontSize="20"/>
+
+                        <Button Grid.Row="5" FontWeight="Black" Content="Показать результат" Width="200" Name="ResultBtn" Click="ResultBtn_Click"/>
+                        <Button Grid.Row="5" FontWeight="Black" Grid.Column="2" Content="OK" Width="200" Name="OkBtn" Click="OkBtn_Click"/>
                     </Grid>
                 </TabItem.Content>
 
