@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TestEyp.AppDate;
+using TestEyp.Model;
 
 namespace TestEyp.Pages
 {
@@ -382,11 +384,34 @@ namespace TestEyp.Pages
 
         private void ResultBtn_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"Ваш результат {b}");
+            ResultTb.Text = Convert.ToString(b);
+
+            if (b >= 20) c = 5;
+            if (b < 11 && b<20) c = 4;
+            if (b > 5 && b < 12) c = 3;
+            if (b < 6 && b>0) c = 2;
+            if (b == 0) c = 1;
+
+            MarkTb.Text = Convert.ToString(c);
+
         }
 
         private void OkBtn_Click(object sender, RoutedEventArgs e)
         {
+            Journal journal = new Journal()
+            {
+                DataTest = DateTime.Now,
+                Mark = c,
+                IdStudent = ClassVariable.classman,
+                IdTest = 1
+
+            };
+
+            App.context.Journal.Add(journal);
+            App.context.SaveChanges();
+
+            FrameHelper.BodyFrame.Navigate(new Pages.BodyPage());
+
 
         }
     }

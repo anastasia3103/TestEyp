@@ -26,12 +26,14 @@
 
         <Button Content="Преподаватель"  Grid.Row="2"
                 VerticalAlignment="Center" Height="40" 
+                FontSize="20" FontWeight="Bold" Background="LightBlue"
                 Width="300" HorizontalAlignment="Center"
                 Name="TeacherBtn" Click="TeacherBtn_Click"/>
         
         <Button Content="Студент"  Grid.Row="3"
                 VerticalAlignment="Center" Height="40" 
                 Width="300" HorizontalAlignment="Center"
+                FontSize="20" FontWeight="Bold" Background="LightBlue"
                 Name="StudentBtn" Click="StudentBtn_Click_1"/>
 
     </Grid>

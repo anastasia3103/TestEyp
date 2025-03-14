@@ -668,9 +668,9 @@
 
                         <TextBlock Text="Правильных ответов:" Grid.Row="1" FontSize="35" FontWeight="Bold"/>
                         <TextBlock Text="Ваша оценка:" Grid.Row="3" FontSize="35" FontWeight="Bold"/>
-                        
-                        <TextBlock Name="ResultTb"  Grid.Row="1" Grid.Column="2" FontSize="20"/>
-                        <TextBlock Name="MarkTb"  Grid.Row="3" Grid.Column="2" FontSize="20"/>
+
+                        <TextBlock Name="ResultTb"  FontWeight="Black" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" FontSize="20"/>
+                        <TextBlock Name="MarkTb"   FontWeight="Black" Grid.Row="3" Grid.Column="2"  FontSize="20"/>
 
                         <Button Grid.Row="5" FontWeight="Black" Content="Показать результат" Width="200" Name="ResultBtn" Click="ResultBtn_Click"/>
                         <Button Grid.Row="5" FontWeight="Black" Grid.Column="2" Content="OK" Width="200" Name="OkBtn" Click="OkBtn_Click"/>

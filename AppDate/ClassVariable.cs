@@ -8,5 +8,6 @@ namespace TestEyp.AppDate
 {
     internal class ClassVariable
     {
+        public static int classman;
     }
 }

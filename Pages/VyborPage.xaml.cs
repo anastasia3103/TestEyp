@@ -86,6 +86,8 @@ namespace TestEyp.Pages
             {
                 FrameHelper.BodyFrame.Navigate(new Pages.Test4Page());
             }
+
+            ClassVariable.classman = Convert.ToInt32(StudentCmb.SelectedValue);
         }
     }
 }
