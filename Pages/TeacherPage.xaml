@@ -22,9 +22,11 @@
                    Grid.Row="1" FontSize="25" 
                    HorizontalAlignment="Center"/>
         <PasswordBox Grid.Row="2" FontSize="25" Width="450"
-                   HorizontalAlignment="Center" Name="PasswordPb"/>
+                   HorizontalAlignment="Center"
+                     Name="PasswordPb"/>
         <Button Grid.Row="4" FontSize="25" Width="100"
-                   HorizontalAlignment="Center" Name="OkBtn" 
+                   HorizontalAlignment="Center" Name="OkBtn"
+                FontWeight="Bold" Background="LightBlue"
                 Click="OkBtn_Click" Content="OK" />
     </Grid>
 </Page>

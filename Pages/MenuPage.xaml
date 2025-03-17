@@ -12,19 +12,24 @@
         <StackPanel>
             <Separator Height="20" Width="0"/>
             <Button Content="Добавить студента" Height="30" Width="200"
-                    Name="AddStudentBtn" Click="AddStudentBtn_Click"/>
+                    Name="AddStudentBtn" Click="AddStudentBtn_Click"
+                FontSize="17" FontWeight="Bold" Background="LightBlue"/>
             <Separator Height="20" Width="0"/>
             <Button Content="Добавить группу" Height="30" Width="200"
-                    Name="AddGroupBtn" Click="AddGroupBtn_Click"/>
+                    Name="AddGroupBtn" Click="AddGroupBtn_Click"
+                FontSize="17" FontWeight="Bold" Background="LightGreen"/>
             <Separator Height="20" Width="0"/>
             <Button Content="Список студентов с оценками" Height="30" Width="200"
-                    Name="ListBtn" Click="ListBtn_Click"/>
+                    Name="ListBtn" Click="ListBtn_Click"
+                     FontSize="12" FontWeight="Bold" Background="LightBlue"/>
             <Separator Height="20" Width="0"/>
             <Button Content="Удалить студента" Height="30" Width="200"
-                    Name="DeliteBtn" Click="DeliteBtn_Click"/>
+                    Name="DeliteBtn" Click="DeliteBtn_Click"
+                    FontSize="17" FontWeight="Bold" Background="LightGreen"/>
             <Separator Height="20" Width="0"/>
             <Button Content="Выйти в главное меню" Height="30" Width="200"
-                    Name="EntryBtn" Click="EntryBtn_Click"/>
+                    Name="EntryBtn" Click="EntryBtn_Click"
+                     FontSize="15" FontWeight="Bold" Background="LightBlue"/>
             <Separator Height="20" Width="0"/>
         </StackPanel>
     </Grid>
